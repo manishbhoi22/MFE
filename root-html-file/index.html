@@ -32,10 +32,10 @@
           <application name="navbar"></application>
         </nav>
         <div class="main-content">
-          <route path="app1">
+          <route default>
             <application name="app1"></application>
           </route>
-          <route path="app2">
+          <route path="app1">
             <application name="app2"></application>
           </route>
         </div>
@@ -61,6 +61,6 @@
         start();
       });
     </script>
-    <import-map-overrides-full></import-map-overrides-full>
+    <!-- <import-map-overrides-full></import-map-overrides-full> -->
   </body>
 </html>
